@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: beige">
+    <div class="container" style="background-color: beige">
+      <div class="col-12 col-md-4">
+        <form action="">
+          <h2 style="text-align: center">thong tin nguoi dung</h2>
+          <label for="ten">ten: </label> <br />
+          <input type="text" id="ten" name="ten" style="width: 100%" /><br />
+
+          <label for="email">email: </label> <br />
+          <input
+            type="email"
+            id="email"
+            name="emial"
+            style="width: 100%"
+          /><br />
+
+          <label for="ngaysinh">ngay sinh: </label><br />
+          <input
+            type="date"
+            id="ngaysinh"
+            name="ngaysinh"
+            style="width: 100%"
+          /><br />
+
+          <div class="gioi tinh">
+            <div class="row">
+              <div class="col-3">
+                <label for="gioitinh"> gioi tinh: </label>
+              </div>
+              <div class="col">
+                <input type="radio" id="nam" name="gioitinh" />
+                <label for="nam">nam</label><br />
+                <input type="radio" id="nu" name="gioitinh" />
+                <label for="nu">nu</label><br />
+              </div>
+            </div>
+          </div>
+
+          <label for="sdt">so dien thoai: </label><br />
+          <input type="tel" id="sdt" name="sdt" style="width: 100%" /><br />
+
+          <label for="diachi"> dia chi</label><br />
+          <textarea
+            name="diachi"
+            id="diachi"
+            cols="12"
+            rows="3"
+            class="col-12 col-md-12"
+          ></textarea>
+
+          <h2 style="text-align: center">thong tin tai khoan</h2>
+
+          <label for="usernaem">username: </label><br />
+          <input
+            type="text"
+            id="username"
+            name="username"
+            style="width: 100%"
+          /><br />
+
+          <label for="password">password: </label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            style="width: 100%"
+          /><br />
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="margin-top: 10px"
+          >
+            luu
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
